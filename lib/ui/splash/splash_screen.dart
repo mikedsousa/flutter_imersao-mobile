@@ -17,7 +17,7 @@ class SplashScreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: Column(
                 spacing: 32.0,
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Image.asset('assets/logo.png', width: 192),
                   Column(
@@ -55,6 +55,7 @@ class SplashScreen extends StatelessWidget {
                       child: Text("Bora!"),
                     ),
                   ),
+                  SizedBox(height: 50,)
                 ],
               ),
             ),
